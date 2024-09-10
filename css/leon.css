@@ -78,7 +78,7 @@ body {
     color: #797979;
 }
 
-@media (max-width: 767px) {
+@media (width < 767px) {
     .special-heading {
         font-size: 60px;
     }
@@ -273,7 +273,7 @@ body {
     margin-bottom: 40px;
 }
 
-@media (max-width: 767px) {
+@media (width < 767px) {
     .services .services-content .srv {
         flex-direction: column;
         text-align: center;
@@ -319,7 +319,7 @@ body {
     width: 260px;
 }
 
-@media (max-width: 1199px) {
+@media (width < 1199px) {
     .image-col {
         display: none;
     }
@@ -347,7 +347,7 @@ body {
 }
 
 .portfolio .portfolio-content .card img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .portfolio .portfolio-content .info {
@@ -380,7 +380,7 @@ body {
     justify-content: space-between;
 }
 
-@media (max-widt: 991px) {
+@media (width < 991px) {
     .about .about-content {
         flex-direction: column;
         text-align: center;
@@ -393,7 +393,7 @@ body {
     height: 375px;
 }
 
-@media (max-width: 991px) {
+@media (width < 991px) {
     .about .about-content .image {
         margin: 0 auto 60px;
     }
@@ -422,7 +422,7 @@ body {
     z-index: -1;
 }
 
-@media (max-widt: 991px) {
+@media (width < 991px) {
 
     .about .about-content .image::before,
     .about .about-content .image::after {
@@ -431,7 +431,7 @@ body {
 }
 
 .about .about-content .image img {
-    max-width: 100%;
+    width: 100%;
 }
 
 .about .about-content .text {
@@ -500,7 +500,7 @@ body {
     cursor: pointer;
 }
 
-@media (max-width: 767px) {
+@media (width < 767px) {
 
     .contact .info .label,
     .contact .info .link {
